@@ -1,4 +1,6 @@
-# Plantilla de prompt (acordada con Muse, 2026-11-20)
+# Plantilla de prompt (acordada con Muse, 2026-11-20; cabeza calva en positivo + hoja de modelo como 2.ª imagen, 2026-11-21)
+
+Cada clip se genera con DOS imágenes: 1) su imagen inicial de input/, 2) ../personaje/hoja-modelo.jpg como referencia obligada del personaje. Revisar antes que la imagen inicial no traiga pelo ni sombra a los lados de la cabeza.
 
 Bloques fijos (CHARACTER, STYLE, FRAMING, END POSE, NO): se copian IDÉNTICOS en todos los clips.
 Cambia por clip: Background, SETTING, ACTION, CAMERA.
@@ -13,11 +15,15 @@ Image: input/NN-nombre.jpg
 Background: PLAIN — off-white | SETTING — [cuál]
 
 CHARACTER (fixed, copy exactly in every clip):
-The same adult cartoon man in every frame: yellow skin, completely
-bald, large PERFECTLY ROUND black glasses (circles, never square), green argyle diamond-pattern
-sweater vest over a white collared shirt, small brown notebook in
-the vest pocket, brown trousers, brown shoes. Same face, same
-proportions, same outfit, never changes.
+Use ../personaje/hoja-modelo.jpg as the MANDATORY character reference for every frame (second reference image, after the starting image).
+The same adult cartoon man in every frame: yellow skin, large PERFECTLY ROUND
+black glasses (circles, never square), green argyle diamond-pattern sweater vest
+over a white collared shirt, small brown notebook in the vest pocket, brown
+trousers, brown shoes. His entire head is smooth bare yellow skin — top, sides
+and back, like a yellow billiard ball. In side and three-quarter views the sides
+of his head are the same bare yellow skin, with no hair above the ears, exactly
+like the side view of the model sheet. Ageless simple cartoon face. Same face,
+same proportions, same outfit, never changes.
 
 STYLE (fixed):
 Hand-drawn cartoon, soft shadows, subtle paper texture,
@@ -49,4 +55,5 @@ Silent video, no audio at all, no music, no sound effects,
 no voice, no dialogue, no speech, no lip movement, mouth closed
 at all times, character never speaks. No text, no letters,
 no numbers, no logos, no watermarks, no extra characters.
+No extra hands, no other people's hands or body parts; only his two hands appear.
 ```
