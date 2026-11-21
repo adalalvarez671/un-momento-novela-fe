@@ -14,7 +14,7 @@ Background: PLAIN — off-white | SETTING — [cuál]
 
 CHARACTER (fixed, copy exactly in every clip):
 The same adult cartoon man in every frame: yellow skin, completely
-bald, large round black glasses, green argyle diamond-pattern
+bald, large PERFECTLY ROUND black glasses (circles, never square), green argyle diamond-pattern
 sweater vest over a white collared shirt, small brown notebook in
 the vest pocket, brown trousers, brown shoes. Same face, same
 proportions, same outfit, never changes.
